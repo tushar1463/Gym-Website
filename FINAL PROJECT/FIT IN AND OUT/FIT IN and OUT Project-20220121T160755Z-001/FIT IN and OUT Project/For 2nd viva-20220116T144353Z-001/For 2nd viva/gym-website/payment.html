@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset ="UTF-8">
+	<title>Payment form</title>
+	<link rel="stylesheet" href="payment.css">
+</head>
+<body>
+	<div class="container">
+        <h1>Confirm Your Payment</h1>
+        <div class="first-row">
+        	<div class="owner">
+        		<h3>Owner</h3>
+        		<div class="input-field">
+        			<input type="text">
+        		</div>
+        	</div>
+        	<div class="cvv">
+        		<h3>CVV</h3>
+        		<div class="input-field">
+        			<input type="password">
+        		</div>
+        	</div>
+        </div>
+        <div class="second-row">
+        	<div class="card number">
+        		<h3>Card Number</h3>
+        		<div class="input-field">
+        			<input type="text">
+        		</div>
+        	</div>
+        </div>
+        	<div class="thrid-row">
+        	<h3>Card Number</h3>
+        	<div class="selection">
+        	    <div class="date">
+                    <select name ="months" id="months">
+                    	<option value="Jan">Jan</option>
+                    	<option value="Feb">Feb</option>
+                    	<option value="Mar">Mar</option>
+                    	<option value="Apr">Apr</option>
+                    	<option value="May">May</option>
+                    	<option value="Jun">Jun</option>
+                    	<option value="Jul">Jul</option>
+                    	<option value="Aug">Aug</option>
+                    	<option value="Sep">Sep</option>
+                    	<option value="Oct">Oct</option>
+                    	<option value="Nov">Nov</option>
+                    	<option value="Dec">Dec</option>
+                      </select>
+                      <select> name="Years" id="Years">
+                      	<option value="2020">2024</option>
+                      	<option value="2019">2023</option>
+                      	<option value="2018">2022</option>
+                      	<option value="2017">2021</option>
+                      	<option value="2016">2020</option>
+                      	<option value="2015">2019</option>
+                      	<option value="2014">2018</option>
+                      </select>
+                </div>
+                <div class="cards">
+                	<img src="images/mc.png.png" alt="">
+                	<img src="images/vi.png.png" alt="">
+                	<img src="images/pp.png.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- <a href="" onclick="alert('Your payment has been succesfully done.Thanks 😊😄 ')">Confirm</a>    -->
+		<div>
+			<a href="#lightbox"> Confirm </a>
+		</div>
+	
+		<div id="lightbox">
+	
+			<a href="#"> X </a>
+			<p style="text-align: right; "> Your payment has been succesfully done. </p>
+			<p style="animation: step-start;"> Now you have been sighned as our Gym member 😊 </p>
+			<P>Welcome to our family.</P>
+			<p>Thanks 😊</p>
+	
+		</div>
+	
+    </div>
+
+
+</body>
+</html>
